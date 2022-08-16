@@ -2,13 +2,26 @@ using UnityEngine;
 
 public class StarColorMap
 {
-    private static Star ZETA_PUPPIS = Star.CreateInstance(StarType.A, new Color32(136, 136, 136, 255), StarName.ZETA_PUPPIS);
-    private static Star SPICA = Star.CreateInstance(StarType.A, new Color32(111, 126, 183, 255), StarName.SPICA);
-    private static Star VEGA = Star.CreateInstance(StarType.A, new Color32(206, 244, 219, 255), StarName.VEGA);
-    private static Star MIRFAK = Star.CreateInstance(StarType.A, new Color32(250, 252, 205, 255), StarName.MIRFAK);
-    private static Star CAPELLA = Star.CreateInstance(StarType.A, new Color32(247, 249, 52, 255), StarName.CAPELLA);
-    private static Star ALDEBARAN = Star.CreateInstance(StarType.A, new Color32(242, 136, 60, 255), StarName.ALDEBARAN);
-    private static Star BETELGEUSE = Star.CreateInstance(StarType.A, new Color32(245, 6, 1, 255), StarName.BETELGEUSE);
+    private static Star ZETA_PUPPIS = Star.CreateInstance(StarType.A, new Color32(136, 136, 136, 255)
+        , StarName.ZETA_PUPPIS);
+
+    private static Star SPICA = Star.CreateInstance(StarType.A, new Color32(111, 126, 183, 255)
+        , StarName.SPICA);
+
+    private static Star VEGA = Star.CreateInstance(StarType.A, new Color32(206, 244, 219, 255)
+        , StarName.VEGA);
+
+    private static Star MIRFAK = Star.CreateInstance(StarType.A, new Color32(250, 252, 205, 255)
+        , StarName.MIRFAK);
+
+    private static Star CAPELLA = Star.CreateInstance(StarType.A, new Color32(247, 249, 52, 255)
+        , StarName.CAPELLA);
+
+    private static Star ALDEBARAN = Star.CreateInstance(StarType.A, new Color32(242, 136, 60, 255)
+        , StarName.ALDEBARAN);
+
+    private static Star BETELGEUSE = Star.CreateInstance(StarType.A, new Color32(245, 6, 1, 255)
+        , StarName.BETELGEUSE);
 
     public static Star GetStarByNumberTry(int intentos)
     {
